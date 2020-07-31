@@ -1,0 +1,37 @@
+@mixin responsive-ratio($x, $y) {
+    $padding: unquote(($y/$x) * 100 + "%");
+
+    &:before {
+        display: block;
+        content: "";
+        padding-top: $padding;
+    }
+
+    &:after {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        content: "#{$x}x#{$y}";
+        color: white;
+    }
+}
+.media {
+    width: 80vw;
+    background: #000;
+    margin: 0 2rem 0 2rem;
+    position: relative;
+    
+    @include responsive-ratio(16, 9);
+}
+.testing{
+    width: 100vw;
+    height:100vh;
+    padding:10rem;
+    margin:12rem;
+    color:blue;
+}

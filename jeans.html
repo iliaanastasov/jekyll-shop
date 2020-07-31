@@ -1,0 +1,23 @@
+---
+layout: site
+title: jeans
+permalink: /category/jeans
+---
+
+{% include go-back.html %}
+<div class="jeans-grid">
+    {% for jeans in site.jeans %}
+    <div class="jeans-box">
+        <a href="{{jeans.url}}">
+           <!-- <span>{{page.url}}</span> -->
+            <span class="image-box">
+                <img class="first-image" src="/resources/images/{{jeans.image-index}}.jpg">
+                <img class="second-image" src="/resources/images/{{jeans.image-index}}b.jpg">
+            </span>
+
+            <span>{{jeans.description}}</span>
+            <span>{{jeans.price}}lv.</span>
+        </a>
+    </div>
+    {% endfor %}
+</div>

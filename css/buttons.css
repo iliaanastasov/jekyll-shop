@@ -1,0 +1,41 @@
+.item-to-wishlist:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 1500;
+    content: "\f004";
+    font-size: 2rem;
+    color: black;
+}
+
+.item-to-wishlist {
+    text-decoration: none;
+}
+
+.item-to-wishlist:hover::before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\f004";
+    color: red;
+}
+
+.item-to-cart {
+    border: 2px solid black;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    color: black;
+    background: whitesmoke;
+    box-shadow: 4px 4px 8px black, 1px 1px 2px black inset;
+    text-align: center;
+    align-content: center;
+}
+
+.item-to-cart:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\f291";
+    font-size: 2rem;
+ 
+}
+
+.item-to-cart:hover {
+    box-shadow: 2px 2px 4px black inset
+}

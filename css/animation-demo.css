@@ -1,0 +1,119 @@
+.animation-board {
+    display: flex;
+}
+
+/* Click the balls CSS */
+
+.playground {
+    align-content: center;
+    height: calc(30vh*1.7778);
+    width: 30vw;
+    background: #fff;
+    border: 2px solid black;
+}
+
+.ball1, .ball2, .ball3, .ball4 {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+}
+
+.ball1 {
+    border: 1px solid green;
+    background: greenyellow;
+}
+
+.ball2 {
+    border: 1px solid red;
+    background: orangered;
+}
+
+.ball3 {
+    border: 1px solid purple;
+    background: blue;
+}
+
+.ball4 {
+    border: 1px solid orange;
+    background: yellow;
+}
+
+.box1 {
+    animation: roam-box1 3s cubic-bezier(.15, .91, .86, .32) infinite alternate-reverse;
+}
+
+.box2 {
+    animation: roam-box2 4s cubic-bezier(.25, .81, .86, .32) infinite alternate-reverse;
+}
+
+.box3 {
+    animation: roam-box3 5s cubic-bezier(.25, .81, .86, .32) infinite alternate-reverse;
+}
+
+.box4 {
+    animation: roam-box3 4s linear infinite alternate-reverse;
+}
+
+#box1, #box2, #box3, #box4 {
+    display: none;
+    margin-left: -2rem;
+}
+
+.playground label {
+    display: flex;
+    width: 2rem;
+}
+
+#box1:checked+.box1, #box2:checked+.box2, #box3:checked+.box3, #box4:checked+.box4 {
+    animation: clicked 0.5s;
+    animation-fill-mode: forwards;
+}
+
+/* Changing figure */
+
+.changing-figure {
+    margin: 5rem;
+    height: 10rem;
+    width: 10rem;
+    animation: square-to-circle 3s infinite alternate-reverse;
+}
+
+/* List animation */
+
+.list-animation li {
+    list-style: none;
+    margin: 0.5rem;
+}
+
+.list-animation a {
+    text-decoration: none;
+}
+
+.list-animation a:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\f787";
+    margin-right: 0.5rem;
+}
+.list-animation li {
+    animation: land 0.3s ease 1 both;
+}
+
+ul li:nth-child(5) {
+    animation-delay: 0.15s;
+}
+
+ul li:nth-child(4) {
+    animation-delay: 0.30s;
+}
+
+ul li:nth-child(3) {
+    animation-delay: 0.45s;
+}
+
+ul li:nth-child(2) {
+    animation-delay: 0.60s;
+}
+ul li:nth-child(1) {
+    animation-delay: 0.75s;
+}

@@ -1,0 +1,68 @@
+@media screen and (min-width:800px) {
+    .profile-menu:hover ul, .wishlist-menu:hover ul, .cart-menu:hover ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        border: 1px solid black;
+        border-radius: 30%;
+        padding: 1em;
+        background: rgba(255, 255, 255, 0.8);
+        justify-content: center;
+        margin-left: -3em;
+        z-index:500;
+    }
+}
+
+@media screen and (max-width:799px) {
+    .user-info span {
+        display: none;
+    }
+    #nav-user:checked+.profile-list ul, #nav-wishlist:checked+.wishlist-list ul, #nav-cart:checked+.cart-list ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        border: 1px solid black;
+        border-radius: 30%;
+        padding: 1em;
+        background: rgba(255, 255, 255, 0.8);
+        justify-content: center;
+        margin-left: -3em;
+        z-index:500;
+    }
+}
+
+.user-info ul li {
+    display: inline-block;
+    padding-right: 0.4em;  
+}
+
+.user-info label:before {
+    padding-right: 0.3rem;
+}
+
+.user-info label:hover {
+    color: purple;
+}
+
+#nav-user, #nav-wishlist, #nav-cart {
+    display: none;
+   
+}
+
+.profile-menu ul, .wishlist-menu ul, .cart-menu ul {
+    display: none;
+}
+
+.profile-menu li, .wishlist-menu li, .cart-menu li {
+    margin: 0.5em;
+    font-style: italic;
+    font-weight: bolder;
+    
+}
+.profile-menu li a{
+    color:black
+}
+.profile-menu li a:hover{
+  font-size: 110%;
+  color:purple;
+}

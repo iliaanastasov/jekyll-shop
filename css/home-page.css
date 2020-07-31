@@ -1,0 +1,39 @@
+.home-showcase ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.home-showcase ul li {
+    flex-basis: 31%;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 1rem;
+    border: var(--home-border);
+    box-shadow: var(--home-shadow);
+    margin: 1rem;
+    text-align: center;
+}
+
+.home-showcase ul li img {
+    height: 40vh;
+    width: 24vw;
+    transition: width 0.1s ease-in-out 0.1s, height 0.1s ease-in-out 0.1s;
+}
+
+.showcase-items {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.showcase-items a{
+    text-decoration: none;
+    color:black;
+}
+
+.showcase-items li:hover>h5, .showcase-items li:hover> a div span {
+    display: none
+}
+.showcase-items img:hover {
+    height:50vh;
+    width:27vw;
+}

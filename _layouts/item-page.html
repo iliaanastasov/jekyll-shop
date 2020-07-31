@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <!-- {% include go-back.html %} -->
+  <a href="/category/{{page.collection}}"><i class="fas fa-angle-left">back</i></a>
+  <section class="shop-item">
+    <div class="images-media">
+      <div class="item-image-box"><img src="/resources/images/{{page.image-index}}.jpg" alt=""></div>
+      <div class="item-image-box"><img src="/resources/images/{{page.image-index}}b.jpg" alt=""></div>
+      <div class="item-image-box"><img src="/resources/images/{{page.image-index}}c.jpg" alt=""></div>
+    </div>
+    <div class="closure-options">
+      <a href="" class="item-to-wishlist"><span>{{page.description}}</span></a>
+      <a href="" class="item-to-cart"><span>{{page.price}}lv.</span></a>
+      <span class="item-price">{{page.price}}lv.</span>
+      <div class="item-size">
+        <label for="item-size">Choose a size:</label>
+        <select name="item-size" value="">
+          <option value="27">27</option>
+          <option value="27/30">27/30</option>
+          <option value="30">30</option>
+          <option value="30/32">30/32</option>
+          <option value="31">31</option>
+          <option value="32">32</option>
+          <option value="33">33</option>
+          <option value="34">34</option>
+          <option value="34/30">34/30</option>
+          <option value="34/32">34/32</option>
+          <option value="34/36">34/36</option>
+          <option value="36">36</option>
+        </select>
+      </div>
+    </div>
+    <div class="product-info">{{content}}</div>
+  </section>
+
+</body>
+
+</html>
