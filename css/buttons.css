@@ -4,6 +4,7 @@
     content: "\f004";
     font-size: 2rem;
     color: black;
+    margin-right:1rem;
 }
 
 .item-to-wishlist {
@@ -15,6 +16,7 @@
     font-weight: 900;
     content: "\f004";
     color: red;
+    
 }
 
 .item-to-cart {

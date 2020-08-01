@@ -1,6 +1,6 @@
 .site-header {
     text-align: center;
-    display: flex;
+    display: block;
     justify-content: space-between;
     margin: 0.5rem;
 }
@@ -59,4 +59,13 @@
 
 #header-search-submit {
     display: none;
+}
+.site-branding{
+    width: 100vw;
+    text-align: center;
+    justify-content: center;
+}
+.site-navigation{
+    display:flex;
+    justify-content: space-between;
 }

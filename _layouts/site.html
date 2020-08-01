@@ -14,68 +14,75 @@
 
         <input type="checkbox" id="nav-left" name="nav-left">
         <header class="site-header">
-            <div class="left-box">
-                <label id="nav-left-toggle" for="nav-left"><span>Categories</span></label>
-                <nav class="navigation-left">
+            <div class="site-branding">
+                <a href="/">
+                    <p class="site-title">{{site.title}}</p>
+                    <p class="site-description">{{site.description}}</p>
+                </a>
+
+            </div>
+            <nav class="site-navigation">
+                <div class="left-box">
+                    <label id="nav-left-toggle" for="nav-left"><span>Categories</span></label>
+                    <nav class="navigation-left">
+                        <ul>
+                            <li><a href="/category/jackets">Jackets</a></li>
+                            <li><a href="/category/jeans">Jeans</a></li>
+                            <li><a href="/category/shirts">Shirts</a></li>
+                            <li><a href="/category/shoes">Shoes</a></li>
+                            <li><a href="/category/other">Other</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <nav class="user-info">
                     <ul>
-                        <li><a href="/category/jackets">Jackets</a></li>
-                        <li><a href="/category/jeans">Jeans</a></li>
-                        <li><a href="/category/shirts">Shirts</a></li>
-                        <li><a href="/category/shoes">Shoes</a></li>
-                        <li><a href="/category/other">Other</a></li>
+                        <li>
+                            <input type="search" value="search" id="header-search" name="header-search">
+                            <label id="header-search-toggle" for="header-search"></label>
+                            <button id="header-search-submit" type="submit"></button>
+                        </li>
+                        <li class="profile-menu">
+                            <input type="checkbox" id="nav-user" name="nav-user">
+                            <div class="profile-list">
+                                <label for="nav-user" id="nav-user-toggle"
+                                    class="fas fa-user-alt"><span>User</span></label>
+                                <ul>
+                                    <li><a href="">View Profile Info</a></li>
+                                    <li><a href="">Shopping History</a></li>
+                                    <li><a href="">Logout</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="wishlist-menu">
+                            <input type="checkbox" id="nav-wishlist" name="nav-wishlist">
+                            <div class="wishlist-list">
+                                <label for="nav-wishlist" id="nav-wishlist-toggle"
+                                    class="fas fa-heart"><span>Wishlist</span></label>
+                                <ul>
+                                    <li>
+                                        <p>No items in your wishlist.</p>
+                                    </li>
+                                    <li>
+                                        <p>Add items as favorite to track details.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="cart-menu">
+                            <input type="checkbox" id="nav-cart" name="nav-cart">
+                            <div class="cart-list">
+                                <label for="nav-cart" id="nav-cart-toggle"
+                                    class="fas fa-shopping-cart"><span>Cart</span></label>
+                                <ul>
+                                    <li>
+                                        <p>Your shopping cart is empty.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
                     </ul>
                 </nav>
-            </div>
-            <div class="site-branding">
-                <p class="site-title">{{site.title}}</p>
-                <p class="site-description">{{site.description}}</p>
-            </div>
-            <nav class="user-info">
-                <ul>
-                    <li>
-                        <input type="search" value="search" id="header-search" name="header-search">
-                        <label id="header-search-toggle" for="header-search"></label>
-                        <button id="header-search-submit" type="submit"></button>
-                    </li>
-                    <li class="profile-menu">
-                        <input type="checkbox" id="nav-user" name="nav-user">
-                        <div class="profile-list">
-                            <label for="nav-user" id="nav-user-toggle" class="fas fa-user-alt"><span>User</span></label>
-                            <ul>
-                                <li><a href="">View Profile Info</a></li>
-                                <li><a href="">Shopping History</a></li>
-                                <li><a href="">Logout</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="wishlist-menu">
-                        <input type="checkbox" id="nav-wishlist" name="nav-wishlist">
-                        <div class="wishlist-list">
-                            <label for="nav-wishlist" id="nav-wishlist-toggle"
-                                class="fas fa-heart"><span>Wishlist</span></label>
-                            <ul>
-                                <li>
-                                    <p>No items in your wishlist.</p>
-                                </li>
-                                <li>
-                                    <p>Add items as favorite to track details.</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="cart-menu">
-                        <input type="checkbox" id="nav-cart" name="nav-cart">
-                        <div class="cart-list">
-                            <label for="nav-cart" id="nav-cart-toggle"
-                                class="fas fa-shopping-cart"><span>Cart</span></label>
-                            <ul>
-                                <li>
-                                    <p>Your shopping cart is empty.</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                </ul>
             </nav>
 
         </header>
