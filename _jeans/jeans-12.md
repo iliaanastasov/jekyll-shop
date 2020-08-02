@@ -1,10 +1,11 @@
 ---
 layout: item-page
-title:  "Welcome to Jekyll!"
+title:  "jeans-12"
 image-index: jeans-2
-description: "tight jeans"
+description: "super tight jeans"
 price: 39.99
-
+collection: jeans
 ---
-Fucking stylish jeans - great for everyday use. 
-Available in all colors and sizes. 
+Freaking stylish jeans - great for everyday use. 
+Available in all colors and sizes. 100% denim made of cotton
+Partly used recycled cotton.

@@ -1,10 +1,12 @@
 ---
-layout: post
-title:  "Welcome to Jekyll!"
+layout: item-page
+title:  "jeans-7"
 image-index: jeans-2
 description: "tight jeans"
 price: 39.99
+collection: jeans
 
 ---
-Fucking stylish jeans - great for everyday use. 
-Available in all colors and sizes. 
+Freaking stylish jeans - great for everyday use. 
+Available in all colors and sizes. 100% denim made of cotton
+Partly used recycled cotton.

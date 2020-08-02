@@ -1,10 +1,11 @@
 ---
 layout: item-page
-title:  "Welcome to Jekyll!"
+title:  "jeans-4"
 image-index: jeans-2
 description: "slim fit jeans"
 price: 32.99
-permalink: /category/jeans/jeans-4
+collection: jeans
 ---
-Fucking stylish jeans - great for everyday use. 
-Available in all colors and sizes. 
+Freaking stylish jeans - great for everyday use. 
+Available in all colors and sizes. 100% denim made of cotton
+Partly used recycled cotton.
