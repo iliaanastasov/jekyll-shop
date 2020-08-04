@@ -39,6 +39,7 @@
       <span class="item-price">{{page.price}}lv.</span>
       <div class="item-size">
         <label for="item-size">Choose a size:</label>
+        {% if page.collection=="jeans"%}
         <select name="item-size" value="">
           <option value="27">27</option>
           <option value="27/30">27/30</option>
@@ -53,6 +54,17 @@
           <option value="34/36">34/36</option>
           <option value="36">36</option>
         </select>
+        {% endif%}
+        {% if page.collection=="jackets"%}
+        <select name="item-size" value="">
+          
+          <option value="S">Small</option>
+          <option value="M">Medium</option>
+          <option value="L">Large</option>
+          <option value="XL">Extra Large</option>
+          <option value="XXL">Extra Extra Large</option>
+        </select>
+        {% endif%}
       </div>
     </div>
     <div class="product-info">{{content}}</div>
