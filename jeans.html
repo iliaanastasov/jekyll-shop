@@ -5,13 +5,13 @@ permalink: /category/jeans
 ---
 
 {% include go-back.html %}
-<div class="jeans-grid">
+<div class="products-grid">
     {% for jeans in site.jeans %}
-    <div class="jeans-box">
+    <div class="products-box">
         <a href="{{jeans.url}}">
-            <span class="image-box">
-                <img class="first-image" src="/resources/images/{{jeans.image-index}}.jpg">
-                <img class="second-image" src="/resources/images/{{jeans.image-index}}b.jpg">
+            <span class="products-image-box">
+                <img class="products-first-image" src="/resources/images/{{jeans.image-index}}.jpg">
+                <img class="products-second-image" src="/resources/images/{{jeans.image-index}}b.jpg">
             </span>
 
             <span>{{jeans.description}}</span>

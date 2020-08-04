@@ -6,5 +6,5 @@ description: "regular jeans"
 price: 59.99
 collection: jeans
 ---
-Fucking stylish jeans - great for Mondays. 
+Freaking stylish jeans - great for Mondays. 
 Available in some colors and sizes. 

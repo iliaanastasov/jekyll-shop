@@ -9,6 +9,8 @@ github_username:  jekyll
 collections:
   jeans: 
     output: true
+  jackets: 
+    output: true
 # Build settings
 theme: minima
 plugins:

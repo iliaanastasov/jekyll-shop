@@ -1,12 +1,12 @@
 @media screen and (min-width:1000px) {
-    .jeans-grid {
+    .products-grid {
         grid-template-columns: repeat(4, 1fr);
         gap: 2rem;
         grid-template-rows: repeat(3, 1fr);
     }
 }
 @media screen and (max-width:999px) {
-    .jeans-grid {
+    .products-grid {
         grid-template-columns: repeat(3, 1fr);
         gap: 2rem;
         grid-template-rows: repeat(4, 1fr);
@@ -14,14 +14,14 @@
 }
 
 @media screen and (max-width:799px) {
-    .jeans-grid {
+    .products-grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
         grid-template-rows: repeat(6, 1fr);
     }
 }
 @media screen and (max-width:499px) {
-    .jeans-grid {
+    .products-grid {
         grid-template-columns: repeat(1, 1fr);
         gap: 2rem;
         grid-template-rows: repeat(12, 1fr);
@@ -30,7 +30,7 @@
 
 
 
-.jeans-grid {
+.products-grid {
     position:relative;
     display: grid;
     overflow: hidden;
@@ -39,25 +39,25 @@
     padding-bottom: 4rem;
 }
 
-.jeans-box {
+.products-box {
     width: auto;
     height: 60vh;
     border-radius: 5%;
     padding: 2rem;
 }
 
-.jeans-box a {
+.products-box a {
     text-decoration: none;
     color: black;
     text-align: center;
 }
 
-.jeans-box a span {
+.products-box a span {
     margin-right: 2rem;
     font-size: large;
 }
 
-.image-box {
+.products-image-box {
     background: rgba(255, 255, 255, 0.4);
     display: flex;
     justify-content: center;
@@ -71,7 +71,7 @@
     overflow: hidden;
 }
 
-.image-box img {
+.products-image-box img {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -81,15 +81,15 @@
     border-radius: 20%;
 }
 
-.second-image {
+.products-second-image {
     opacity: 0;
 }
 
-.jeans-box:hover .first-image {
+.products-box:hover .products-first-image {
     opacity: 0;
 }
 
-.jeans-box:hover .second-image {
+.products-box:hover .products-second-image {
     opacity: 1;
   
 }

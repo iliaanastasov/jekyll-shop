@@ -14,6 +14,7 @@
 @import url("/converted-css/styles.css");
 @import url("/scss/demo-grid.scss");
 @import url("/converted-css/demo-grid.css");
-@import url("/css/jeans-page.css");
+@import url("/css/products-page.css");
 @import url("/css/item-page.css");
-@import url("/css/buttons.css")
+@import url("/css/buttons.css");
+@import url("/css/forms.css")
