@@ -39,3 +39,4 @@ exclude:
    - gitignore
    - package-lock.json
    - package.json
+theme: jekyll-theme-cayman
