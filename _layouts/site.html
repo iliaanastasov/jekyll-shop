@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/styles.css">
     <title>{{site.title}}</title>
 </head>
 
@@ -15,7 +15,7 @@
         <input type="checkbox" id="nav-left" name="nav-left">
         <header class="site-header">
             <div class="site-branding">
-                <a href="/">
+                <a href="{{site.baseurl}}/">
                     <p class="site-title">{{site.title}}</p>
                     <p class="site-description">{{site.description}}</p>
                 </a>
@@ -26,11 +26,11 @@
                     <label id="nav-left-toggle" for="nav-left"><span>Categories</span></label>
                     <nav class="navigation-left">
                         <ul>
-                            <li><a href="/category/jackets">Jackets</a></li>
-                            <li><a href="/category/jeans">Jeans</a></li>
-                            <li><a href="/category/shirts">Shirts</a></li>
-                            <li><a href="/category/shoes">Shoes</a></li>
-                            <li><a href="/category/other">Other</a></li>
+                            <li><a href="{{site.baseurl}}/category/jackets">Jackets</a></li>
+                            <li><a href="{{site.baseurl}}/category/jeans">Jeans</a></li>
+                            <li><a href="{{site.baseurl}}/category/shirts">Shirts</a></li>
+                            <li><a href="{{site.baseurl}}/category/shoes">Shoes</a></li>
+                            <li><a href="{{site.baseurl}}/category/other">Other</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -48,7 +48,7 @@
                                 <label for="nav-user" id="nav-user-toggle"
                                     class="fas fa-user-alt"><span>User</span></label>
                                 <ul>
-                                    <li><a href="/login">Login</a></li>
+                                    <li><a href="{{site.baseurl}}/login">Login</a></li>
                                     <li><a href="">View Profile Info</a></li>
                                     <li><a href="">Shopping History</a></li>
                                     <li><a href="">Logout</a></li>
@@ -95,11 +95,11 @@
                 <div class="footer-products">
                     <p>Products</p>
                     <ul>
-                        <li><a href="/jackets/">Jackets</a></li>
-                        <li><a href="/jeans/">Jeans</a></li>
-                        <li><a href="/shirts/">Shirts</a></li>
-                        <li><a href="/shoes/">Shoes</a></li>
-                        <li><a href="/other/">Other</a></li>
+                        <li><a href="{{site.baseurl}}/category/jackets/">Jackets</a></li>
+                        <li><a href="{{site.baseurl}}/category/jeans/">Jeans</a></li>
+                        <li><a href="{{site.baseurl}}/shirts/">Shirts</a></li>
+                        <li><a href="{{site.baseurl}}/shoes/">Shoes</a></li>
+                        <li><a href="{{site.baseurl}}/other/">Other</a></li>
                     </ul>
                 </div>
                 <div class="footer-support">
@@ -113,10 +113,10 @@
                 </div>
                 <div class="footer-about">
                     <ul>
-                        <li><a href="/about/">About</a></li>
+                        <li><a href="{{site.baseurl}}/about/">About</a></li>
                         <li><a href="">Contacts</a></li>
-                        <li><a href="/animations">Animations</a></li>
-                        <li><a href="/demo">Demo Page</a></li>
+                        <li><a href="{{site.baseurl}}/animations">Animations</a></li>
+                        <li><a href="{{site.baseurl}}/demo">Demo Page</a></li>
                     </ul>
                 </div>
             </div>

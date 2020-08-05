@@ -1,0 +1,78 @@
+body, html {
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.login-background {
+    background-image: url("/font/clothes-background.jpg");
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login-container {
+    display: block;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.login-container button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: auto;
+}
+.login-container legend{
+   text-align: start;
+   font-size: larger;
+}
+
+.login-container span a{
+    color: whitesmoke;
+    font-style: oblique;
+}
+
+.form-title {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 3;
+}
+
+.form-title h4 {
+    color: black;
+    text-shadow: 4px 8px 4px white;
+    margin-bottom: 1%;
+}

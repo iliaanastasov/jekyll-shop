@@ -8,10 +8,10 @@ permalink: /category/jeans
 <div class="products-grid">
     {% for jeans in site.jeans %}
     <div class="products-box">
-        <a href="{{jeans.url}}">
+        <a href="{{site.baseurl}}{{jeans.url}}">
             <span class="products-image-box">
-                <img class="products-first-image" src="/resources/images/{{jeans.image-index}}.jpg">
-                <img class="products-second-image" src="/resources/images/{{jeans.image-index}}b.jpg">
+                <img class="products-first-image" src="{{site.baseurl}}/resources/images/{{jeans.image-index}}.jpg">
+                <img class="products-second-image" src="{{site.baseurl}}/resources/images/{{jeans.image-index}}b.jpg">
             </span>
 
             <span>{{jeans.description}}</span>

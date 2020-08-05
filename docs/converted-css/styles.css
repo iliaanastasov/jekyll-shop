@@ -1,0 +1,27 @@
+.media {
+  width: 80vw;
+  background: #000;
+  margin: 0 2rem 0 2rem;
+  position: relative; }
+  .media:before {
+    display: block;
+    content: "";
+    padding-top: 56.25%; }
+  .media:after {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: "16x9";
+    color: white; }
+
+.testing {
+  width: 100vw;
+  height: 100vh;
+  padding: 10rem;
+  margin: 12rem;
+  color: blue; }

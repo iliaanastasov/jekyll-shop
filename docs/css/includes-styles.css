@@ -1,0 +1,16 @@
+/* go-back CSS */
+
+.go-back:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\f30a";
+    margin-right: 1em;
+}
+
+.go-back {
+    text-decoration: none;
+    font-size: large;
+}
+
+/* go-back CSS */
+
